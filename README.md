@@ -22,6 +22,10 @@
 - Google Fonts API
 - CSS Transitions
 
+## Zoom
+- "Ctrl_Shift_+" =  Zoom in
+- "Ctrl_-" =  Zoom out
+
 ## Quick Start
 ### Web Version
 ```bash
