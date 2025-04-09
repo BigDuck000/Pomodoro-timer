@@ -38,3 +38,9 @@ npm start
 npm run build-win  # Windows
 npm run build-mac  # macOS
 npm run build-linux # Linux
+
+```markdown
+
+| Paramater     | Location      | Description   |
+| ------------- | ------------- |
+| Themes        | .work-theme and .break-theme CSS classes  | Customize colors here |
