@@ -1,6 +1,6 @@
 # Big Duck Pomodoro Timer
 
-![Pomodoro Timer Screenshot](https://imgur.com/a/mt65qjb)
+![Pomodoro Timer Screenshot](https://imgur.com/JrMdnvt)
 
 ## Описание
 Простой Pomodoro Timer с автоматической сменой фаз (работа/отдых) и темной/светлой темами.  
