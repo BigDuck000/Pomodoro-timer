@@ -21,6 +21,13 @@
 - Google Fonts API
 - CSS Transitions
 
+## Configuration
+```markdown
+
+| Paramater     | Location      | Description   |
+| ------------- | ------------- |
+| Themes        | .work-theme and .break-theme CSS classes  | Customize colors here |
+
 ## Quick Start
 ### Web Version
 ```bash
@@ -39,9 +46,3 @@ npm run build-win  # Windows
 npm run build-mac  # macOS
 npm run build-linux # Linux
 
-## Configuration
-```markdown
-
-| Paramater     | Location      | Description   |
-| ------------- | ------------- |
-| Themes        | .work-theme and .break-theme CSS classes  | Customize colors here |
