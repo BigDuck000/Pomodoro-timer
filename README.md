@@ -26,7 +26,7 @@
 ### Web Version
 ```bash
 git clone https://github.com/BigDuck000/Pomodoro-timer.git
-cd pomodoro
+cd Pomodoro-timer
 # open index.html
 ```
 
