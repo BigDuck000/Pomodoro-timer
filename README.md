@@ -1,4 +1,4 @@
-# Big Duck Pomodoro Timer
+# Pomodoro Timer
 
 ![Pomodoro Timer work](https://i.imgur.com/cHy7N8Q.png)
 ![Pomodoro Timer break](https://i.imgur.com/0oJf2Ab.png)
