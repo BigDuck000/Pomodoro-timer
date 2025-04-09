@@ -1,8 +1,9 @@
 # Big Duck Pomodoro Timer
 
-![Pomodoro Timer](https://i.imgur.com/JrMdnvtl.png)
+![Pomodoro Timer work](https://i.imgur.com/cHy7N8Q.png)
+![Pomodoro Timer break](https://i.imgur.com/0oJf2Ab.png)
 
-[![Version](https://img.shields.io/badge/Version-1.2.0-brightgreen)](https://github.com/bigduck/pomodoro)
+[![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen)](https://github.com/BigDuck000/Pomodoro-timer)
 [![Electron](https://img.shields.io/badge/Electron-28.0.0-red)](https://www.electronjs.org/)
 
 ## Features
@@ -21,20 +22,16 @@
 - Google Fonts API
 - CSS Transitions
 
-## Configuration
-```markdown
-
-| Paramater     | Location      | Description   |
-| ------------- | ------------- |
-| Themes        | .work-theme and .break-theme CSS classes  | Customize colors here |
-
 ## Quick Start
 ### Web Version
 ```bash
-git clone https://github.com/bigduck/pomodoro.git
+git clone https://github.com/BigDuck000/Pomodoro-timer.git
 cd pomodoro
 open index.html
+```
 
+### Desktop Version
+```bash
 # Install dependencies
 npm install
 
