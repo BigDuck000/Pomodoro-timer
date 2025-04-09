@@ -1,41 +1,40 @@
 # Big Duck Pomodoro Timer
 
-![Pomodoro Timer Screenshot](https://i.imgur.com/JrMdnvtl.png)
+![Pomodoro Timer](https://i.imgur.com/JrMdnvtl.png)
 
-## Описание
-Простой Pomodoro Timer с автоматической сменой фаз (работа/отдых) и темной/светлой темами.  
-**Особенности:**
-- 40 минут работы / 15 минут отдыха
-- Бесконечный цикл (автоматический переход между фазами)
-- Смена тем при переключении фаз
-- Адаптивный дизайн
-- Возможность паузы и сброса
-- Готов к использованию как веб-приложение или десктоп-версия
+[![Version](https://img.shields.io/badge/Version-1.2.0-brightgreen)](https://github.com/bigduck/pomodoro)
+[![Electron](https://img.shields.io/badge/Electron-28.0.0-red)](https://www.electronjs.org/)
 
-## Технологии
+## Features
+- 🕒 40/15 minute work/break cycles
+- 🔁 Automatic phase switching
+- 🌙 Dark/Light theme synchronization
+- ⏯️ Pause/Resume functionality
+- 🔄 Manual phase override
+- 📱 Responsive design
+- 🚀 PWA-ready
+- 🖥️ Desktop app support
+
+## Tech Stack
 - HTML5/CSS3/JavaScript
-- Electron (для десктоп-версии)
-- Google Fonts (Bebas Neue)
+- Electron.js for desktop apps
+- Google Fonts API
+- CSS Transitions
 
-## Использование
-1. **Работа:**  
-   Нажмите "Start" для начала 40-минутного таймера работы  
-   Фон становится черным, текст белым
-
-2. **Отдых:**  
-   После окончания работы автоматически запустится 15-минутный перерыв  
-   Фон станет белым, текст черным
-
-3. **Управление:**
-   - **Start/Pause:** Запуск/пауза таймера
-   - **Reset:** Сброс к начальной фазе работы
-   - **Phase Switch:** Клик по "Work 40min" или "Break 15min" для ручного переключения
-
-## Установка
-### Веб-версия
-Просто откройте `index.html` в браузере
-
-### Десктоп-версия
-1. Установите зависимости:
+## Quick Start
+### Web Version
 ```bash
+git clone https://github.com/bigduck/pomodoro.git
+cd pomodoro
+open index.html
+
+# Install dependencies
 npm install
+
+# Run development version
+npm start
+
+# Build for your OS
+npm run build-win  # Windows
+npm run build-mac  # macOS
+npm run build-linux # Linux
