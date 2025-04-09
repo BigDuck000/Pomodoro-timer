@@ -1,0 +1,34 @@
+{
+  "name": "pomodoro-desktop",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build-win": "electron-builder build --win",
+    "build-mac": "electron-builder build --mac",
+    "build-linux": "electron-builder build --linux"
+  },
+  "build": {
+    "appId": "com.bigduck.pomodoro",
+    "productName": "Pomodoro",
+    "directories": {
+      "buildResources": "build"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "build/icon.icns"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "build/icon.png"
+    }
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.6.4"
+  }
+}

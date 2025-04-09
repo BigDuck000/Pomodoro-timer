@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pomodoro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <div class="creator">Created by Big Duck</div>
+    <div class="settings" id="settingsBtn">&#9881;</div>
+    
+    <div class="settings-panel" id="settingsPanel">
+        <div class="settings-input">
+            <label>Work duration (min):</label>
+            <input type="number" id="workInput" min="1" value="40">
+        </div>
+        <div class="settings-input">
+            <label>Break duration (min):</label>
+            <input type="number" id="breakInput" min="1" value="15">
+        </div>
+        <button id="saveBtn">Save</button>
+    </div>
+    
+    <div class="phase-indicator">
+        <div id="workPhase" class="phase active">Work 40min</div>
+        <div id="breakPhase" class="phase">Break 15min</div>
+    </div>
+    <div id="timer">40:00</div>
+    <div>
+        <button id="startBtn">Start</button>
+        <button id="resetBtn">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

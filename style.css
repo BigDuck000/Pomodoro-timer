@@ -1,0 +1,184 @@
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    transition: all 0.3s;
+}
+
+/* Темная тема */
+body.dark-theme {
+    background: #000;
+    color: #fff;
+}
+
+/* Светлая тема */
+body.light-theme {
+    background: #fff;
+    color: #000;
+}
+
+.creator, .settings {
+    position: absolute;
+    top: 30px;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.creator {
+    left: 30px;
+}
+
+body.dark-theme .creator{
+    color: #999;
+}
+
+body.light-theme .creator{
+    color: #000;
+}
+.settings {
+    right: 30px;
+}
+
+.settings-panel {
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    background: inherit;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 1000;
+}
+
+.settings-panel.active {
+    display: flex;
+}
+
+.settings-input {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 200px;
+}
+
+.settings-input input {
+    width: 60px;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+    text-align: center;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+body.dark-theme .settings-input input {
+    background: #000;
+    color: #fff;
+    border-color: #fff;
+}
+
+body.light-theme .settings-input input {
+    background: #fff;
+    color: #000;
+    border-color: #000;
+}
+
+.phase-indicator {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.phase {
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 8px;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+body.dark-theme .phase {
+    background: #fff;
+    color: #000;
+}
+
+body.light-theme .phase {
+    background: #000;
+    color: #fff;
+}
+
+.phase.active {
+    transform: scale(1.05);
+    border: 3px solid;
+}
+
+body.dark-theme .phase.active {
+    background: #000;
+    color: #fff;
+    border-color: #fff;
+}
+
+body.light-theme .phase.active {
+    background: #fff;
+    color: #000;
+    border-color: #000;
+}
+
+#timer {
+    font-size: 180px;
+    margin: 20px 0;
+    line-height: 1;
+    letter-spacing: 4px;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+body.light-theme #timer {
+    color: #000;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 15px;
+    padding: 12px 25px;
+    transition: all 0.3s;
+    font-family: 'Bebas Neue', sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+body.dark-theme button {
+    background: #fff;
+    color: #000;
+}
+
+body.light-theme button {
+    background: #000;
+    color: #fff;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+body.light-theme button:hover {
+    background: #fff;
+    color: #000;
+}
+
+body.dark-theme button:hover {
+    background: #000;
+    color: #fff;
+}
