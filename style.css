@@ -152,7 +152,6 @@ button {
     font-size: 24px;
     cursor: pointer;
     margin: 15px;
-    gap: 15px;
     padding: 12px 25px;
     transition: all 0.3s;
     font-family: 'Bebas Neue', sans-serif;
