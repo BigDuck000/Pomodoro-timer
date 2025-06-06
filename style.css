@@ -183,14 +183,94 @@ body.dark-theme button:hover {
     color: #fff;
 }
 
-@media (min-width: 768px) {
-  body {
-    font-size: 18px;
-  }
-}
 
 @media (min-width: 1024px) {
   body {
     font-size: 20px;
   }
+}
+
+@media (max-width: 767px) {
+    body {
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    #timer {
+        font-size: 100px;
+        letter-spacing: 2px;
+        margin: 15px 0;
+    }
+
+    .phase-indicator {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .phase {
+        width: 100%;
+        text-align: center;
+        padding: 12px 0;
+        margin: 5px 0;
+    }
+
+    .settings-panel {
+        right: 20px;
+        left: 20px;
+        top: 60px;
+        max-width: calc(100% - 40px);
+    }
+
+    .settings-input {
+        flex-direction: column;
+        width: 100%;
+        gap: 8px;
+    }
+
+    .settings-input input {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    button {
+        width: 100%;
+        margin: 10px 0;
+        padding: 15px 0;
+        font-size: 20px;
+    }
+
+    .creator, 
+    .settings {
+        font-size: 20px;
+        top: 15px;
+    }
+
+    .creator {
+        left: 15px;
+    }
+
+    .settings {
+        right: 15px;
+    }
+}
+
+button {
+    min-height: 50px;
+}
+
+.settings-panel {
+    width: 300px;
+    max-width: 90vw;
+    padding: 25px;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+    margin: 0;
 }
