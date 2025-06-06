@@ -200,8 +200,4 @@ button:hover {
     gap: 10px;
   }
 
-  button {
-    min-width: 48%;
-    font-size: 16px;
-  }
-}
+
