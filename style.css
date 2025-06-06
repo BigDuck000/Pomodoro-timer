@@ -196,11 +196,6 @@ body.dark-theme button:hover {
         font-size: 16px;
     }
 
-    button-container {
-        flex-direction: column;
-        align-items: stretch;
-      }
-
     #timer {
         font-size: 100px;
         letter-spacing: 2px;
