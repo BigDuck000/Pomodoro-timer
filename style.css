@@ -186,7 +186,7 @@ button:hover {
 
 .button-container button {
   flex: 1 1 auto; /* Allow buttons to grow/shrink */
-  min-width: 40%; /* Minimum width to keep them side by side */
+  min-width: 20%; /* Minimum width to keep them side by side */
   white-space: nowrap; /* Prevent text from wrapping */
   padding: 12px 0;
   font-size: 18px;
